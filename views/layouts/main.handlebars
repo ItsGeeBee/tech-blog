@@ -10,18 +10,24 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<<div>
-    <div class ="custom-nav collapse navbar-collapse" id="navbar1">
-        <div class ="bg-light p-2">
-        <ul class ="nav navbar-nav">
-        <li><a href="/">Home</a></li> 
-        <li><a href="/dashboard">Dashboard</a></li>
-        <li><a href="/login">Login</a></li>
-        <li><a href="#" id="logout-link">Logout</a></li>
-        </ul>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <ul class ="nav navbar-nav">
+                <li><a href="/">Home</a></li> 
+                <li><a href="/dashboard">Dashboard</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="#" id="logout-link">Logout</a></li>
+                </ul>
         </div>
-    </div>    
-</div>  
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h3 class="text-white justify-content-center">Tech Blog</h3>
+        </div>
+      </nav>  
 <body>
 
     <div class="position-relative p-2 mt-5">
