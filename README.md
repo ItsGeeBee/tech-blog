@@ -23,10 +23,6 @@ Installation of npm packages required are invoked with the following command:
 
 `npm i`
 
-Data is seeded by invoking the following command:
-
-`node seeds/seed.js`
-
 The application server will be invoked with the following command:
 
 `node server.js`
@@ -34,4 +30,6 @@ The application server will be invoked with the following command:
 ## Link to deployed Heroku Application
 [Click here](https://secure-sea-84765.herokuapp.com/)
 
-## Screenshots
+## Screenshot
+<img src="public/assets/image.png"  width="800px" height="auto">
+
