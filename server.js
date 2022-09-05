@@ -12,7 +12,6 @@ require('dotenv').config()
 
 const sess = {
   secret: 'secret',
-  // expires: new Date(Date.now()+10000),
   cookie: {expires: 10000},
   resave: false,
   saveUninitialized: true,
